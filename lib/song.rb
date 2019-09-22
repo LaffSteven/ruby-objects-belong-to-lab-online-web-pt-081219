@@ -6,10 +6,15 @@ class Song
   
   def initialize(name, artist)
     @name = name
+    @artist = assign_artist(artist)
   end
   
   def assign_artist(artist)
-    if artist
+    if Artist.all_artists.detect(artist)
+      artist
+    else
+      Artist.new(artist)
+    end
   end
   
 end
