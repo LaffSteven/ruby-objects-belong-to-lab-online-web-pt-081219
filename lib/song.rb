@@ -4,7 +4,7 @@ class Song
   
   @@all_songs = []
   
-  def initialize(name, artist)
+  def initialize
     @name = name
     @artist = assign_artist(artist)
   end
