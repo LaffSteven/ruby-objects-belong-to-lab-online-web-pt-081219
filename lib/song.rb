@@ -9,5 +9,4 @@ class Song
     #@artist = assign_artist(artist)
   end
   
-  
 end
