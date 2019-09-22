@@ -9,7 +9,7 @@ class Song
   end
   
   def assign_artist(artist)
-    
+    if artist
   end
   
 end
