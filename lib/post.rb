@@ -4,7 +4,7 @@ class Post
   
   @@all_posts
   
-  def initialize(title, author)
+  def initialize
     @title = title
     @author = assign_author
   end
