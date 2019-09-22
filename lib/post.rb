@@ -9,11 +9,4 @@ class Post
     #@author = assign_author
   end
   
-  def assign_author(author)
-    if Author.all_authors.detect(author)
-      author
-    else
-      Author.new(author)
-    end
-  end   
 end
