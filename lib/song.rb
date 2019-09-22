@@ -6,7 +6,7 @@ class Song
   
   def initialize
     @name = name
-    @artist = assign_artist(artist)
+    #@artist = assign_artist(artist)
   end
   
   def assign_artist(artist)
