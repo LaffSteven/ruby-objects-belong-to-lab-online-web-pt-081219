@@ -6,7 +6,7 @@ class Post
   
   def initialize
     @title = title
-    @author = assign_author
+    #@author = assign_author
   end
   
   def assign_author(author)
